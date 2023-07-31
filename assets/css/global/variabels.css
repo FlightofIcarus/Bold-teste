@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5?styles=103510,103502');
+
+/* Tamanhos de fontes usados:
+1.2rem
+1.4rem
+1.6rem
+1.8rem
+2rem
+4rem */
+
+:root {
+    font-size: 10px;
+    --white: #fff;
+    --primary-gray: #707070;
+    --secundary-gray: #888;
+    --opacit-black: #00000029;
+    --regular: 400 1rem 'Helvetica Neue', sans-serif;
+    --bold: 700 1rem 'Helvetica Neue', sans-serif;
+}
