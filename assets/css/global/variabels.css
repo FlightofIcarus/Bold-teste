@@ -17,3 +17,7 @@
     --regular: 400 1rem 'Helvetica Neue', sans-serif;
     --bold: 700 1rem 'Helvetica Neue', sans-serif;
 }
+
+*, a:any-link{
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+@import url(../global/variabels.css);
+
+body {
+    position: relative;
+}
+
+.bg {
+    background-color: var(--primary-gray);
+    height: 398px;
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 66%);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 66px 16px;
+    font: var(--regular);
+    color: var(--white);
+    height: 270px;
+}
+
+.header__subtitle {
+    font-size: 2rem;
+}
+
+.header__title {
+    font: var(--bold);
+    font-size: 4rem;
+    margin: -0.7rem 0 0.9rem 0;
+    line-height: 4.9rem;
+}
+
+.header__paragraph {
+    font-size: 1.4rem;
+    margin: 0 0 5.6rem 0;
+}
+
+
+
+.nav__list {
+    display: flex;
+    gap: 2.1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn {
+    background-color: var(--white);
+    padding: 1.2rem 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+    border: 1px solid var(--primary-gray);
+    border-radius: 0.5rem;
+}
+
+.nav__link {
+    text-align: center;
+    font: var(--regular);
+    font-size: 1.4rem;
+    color: var(--secundary-gray);
+}
