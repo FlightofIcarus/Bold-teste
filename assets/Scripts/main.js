@@ -19,7 +19,6 @@ let currentPage;
         let productsList = await apiResponse.products;
         showIten(productsList);
         currentPage = await apiResponse;
-        console.log(currentPage);
         const buttomShowMore = document.querySelector("[data-showmore-btn]");
         buttomShowMore.addEventListener("click", async function (event) {
            await showMoreItens(currentPage)
@@ -43,9 +42,7 @@ let currentPage;
         let newApiResponse = await fetch(`http://${nextPage}`);
         let newRenderApi = await newApiResponse.json();
         currentPage = await newRenderApi;
-        console.log(currentPage);
         let newItens = await newRenderApi.products;
-        console.log(newItens);
         showIten(newItens);
 }
 
