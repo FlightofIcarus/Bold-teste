@@ -39,7 +39,7 @@ let currentPage;
 
     async function showMoreItens(api) {
         let nextPage = await api.nextPage;
-        let newApiResponse = await fetch(`http://${nextPage}`);
+        let newApiResponse = await fetch(`https://${nextPage}`);
         let newRenderApi = await newApiResponse.json();
         currentPage = await newRenderApi;
         let newItens = await newRenderApi.products;
