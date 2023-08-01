@@ -64,3 +64,80 @@ header {
     font-size: 1.4rem;
     color: var(--secundary-gray);
 }
+
+.algorithim {
+    padding: 19px 16px;
+}
+
+.algorithim__title {
+    font: var(--regular);
+    font-size: 2.0rem;
+    color: var(--secundary-gray);
+    background: url(../../images/backgrounds/chevron-up-solid.svg) no-repeat right;
+    margin-bottom: 1.7rem;
+}
+
+.algorithim__paragraph {
+    font: var(--regular);
+    font-size: 1.2rem;
+    color: var(--secundary-gray);
+    margin-bottom: 3rem;
+}
+
+.algorithim form {
+    display: flex;
+    flex-direction: column;
+}
+
+.algorithim form label{
+    display: flex;
+    flex-direction: column;
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.2rem;
+}
+
+.algorithim form input[type="text"], .algorithim form input[type="email"], fieldset {
+    margin-bottom: 2rem;
+}
+
+.algorithim form input[type="text"], .algorithim form input[type="email"] {
+    margin-top: 0.7rem;
+    height: 3rem;
+    border: 1px solid var(--primary-gray);
+    outline: none;
+    padding: 0.2rem 0.7rem;
+    line-height: 3rem;
+    font: var(--regular);
+    font-size: 1.6rem;
+    color: var(--primary-gray);
+    overflow: hidden;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+}
+
+fieldset span {
+    display: flex;
+    align-items: center;    
+}
+
+fieldset span:first-child {
+    margin-right: 4rem;
+}
+
+fieldset span label {
+    margin-left: 0.5rem;
+}
+
+.algorithim input[type="submit"] {
+    padding: 1.1rem;
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.6rem;
+    background-color: var(--white);
+    border-radius: 0.4rem;
+    border: 1px solid var(--primary-gray);
+}

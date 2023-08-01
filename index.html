@@ -29,22 +29,31 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <h2>Ajude o algorítimo</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, atque reiciendis minima quisquam, est maxime, rerum rem ullam voluptas architecto corporis necessitatibus deserunt ut repellendus adipisci vel exercitationem consectetur ab.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium mollitia pariatur natus rem? Reprehenderit, eum architecto, similique magnam odio, optio maxime adipisci est debitis ipsam accusantium totam itaque? Quos.</p>
+        <section class="algorithim">
+            <div class="algorithim__box">
+                <h2 class="algorithim__title">Ajude o algorítimo a ser mais certeiro</h2>
+                <p class="algorithim__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend.</p>
+                    
+                <p class="algorithim__paragraph">Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.</p>
             </div>
             <form action="">
                 <label for="">Seu nome:<input type="text"></label>
                 <label for="">E-mail<input type="email"></label>
                 <label for="">CPF:<input type="text"></label>
-                <input type="checkbox" name="" id=""><label for="">Masculino</label></input>
-                <input type="checkbox" name="" id=""><label for="">Feminino</label></input>
+                <fieldset>
+                    <span>
+                        <input type="radio" name="genre" id="Masculino"></input>
+                        <label for="Masculino">Masculino</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="genre" id="Feminino"></input>
+                        <label for="Feminino">Feminino</label>
+                    </span>
+                </fieldset>
                 <input type="submit" value="Enviar">
             </form>
         </section>
-        <section>Sua seleção especial
+        <section class="your-selection">Sua seleção especial
             <div class="item-card">
                 <img src="./assets/images/icons/favicon-bold.jpg" alt="exemplo-item">
                 <h3>produto</h3>
@@ -56,8 +65,8 @@
             </div>
             <button>Ainda mais produtos aqui!</button>
         </section>
-        <section>Compartilhe a novidade
-            <p></p>
+        <section class="shared">Compartilhe a novidade
+            <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
             <label for="">Nome do seu amigo:<input type="text"></label>
             <label for="">E-mail:<input type="text"></label>
             <button>Enviar agora</button>
