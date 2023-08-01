@@ -53,29 +53,45 @@
                 <input type="submit" value="Enviar">
             </form>
         </section>
-        <section class="your-selection">Sua seleção especial
-            <div class="item-card">
-                <img src="./assets/images/icons/favicon-bold.jpg" alt="exemplo-item">
-                <h3>produto</h3>
-                <p>descrição</p>
-                <p>valor anterior</p>
-                <h4>valor atual</h4>
-                <p>ou x vezes</p>
-                <button>Comprar</button>
+        <section class="your-selection">
+            <h2 class="your-selection__title"><hr class="linebreack">Sua seleção especial<hr class="linebreack"></h2>
+            <div class="iten__area">
+                <div class="iten__card first">
+                    <img src="./assets/images/icons/favicon-bold.jpg" alt="exemplo-item" class="iten__image">
+                    <div class="iten__detail">
+                        <h3 class="iten__title">Nome do produto</h3>
+                        <p class="iten__descrition">descrição</p>
+                        <p class="iten__previous">valor anterior</p>
+                        <h4 class="iten__price">valor atual</h4>
+                        <p class="iten__quota">ou x vezes</p>
+                        <button class="iten__btn btn">Comprar</button>
+                    </div>
+                </div>
+                <div class="iten__card">
+                    <img src="./assets/images/icons/favicon-bold.jpg" alt="exemplo-item" class="iten__image">
+                    <div class="iten__detail">
+                        <h3 class="iten__title">Nome do produto</h3>
+                        <p class="iten__descrition">descrição</p>
+                        <p class="iten__previous">valor anterior</p>
+                        <h4 class="iten__price">valor atual</h4>
+                        <p class="iten__quota">ou x vezes</p>
+                        <button class="iten__btn btn">Comprar</button>
+                    </div>
+                </div>
             </div>
-            <button>Ainda mais produtos aqui!</button>
+            <button class="btn more-itens">Ainda mais produtos aqui!</button>
         </section>
-        <section class="shared">Compartilhe a novidade
-            <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+        <section class="shared"><h2 class="shared__title"><hr class="linebreack">Compartilhe a novidade<hr class="linebreack"></h2>
+            <p class="shared__paragraph">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
             <label for="">Nome do seu amigo:<input type="text"></label>
             <label for="">E-mail:<input type="text"></label>
-            <button>Enviar agora</button>
+            <button class="btn shared__btn">Enviar agora</button>
         </section>
     </main>
     <footer>
-        <p>Testando suas habilidades em HTML, CSS e JS.</p>
-        <p>Linx Impulse</p>
-        <p>2019</p>
+        <p class="footer__paragraph">Testando suas habilidades em HTML, CSS e JS.</p>
+        <p class="footer__paragraph">Linx Impulse</p>
+        <p class="footer__paragraph">2019</p>
     </footer>
 </body>
 </html>

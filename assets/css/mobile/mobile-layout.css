@@ -89,7 +89,7 @@ header {
     flex-direction: column;
 }
 
-.algorithim form label{
+.algorithim form label, .shared label{
     display: flex;
     flex-direction: column;
     font: var(--regular);
@@ -97,11 +97,11 @@ header {
     font-size: 1.2rem;
 }
 
-.algorithim form input[type="text"], .algorithim form input[type="email"], fieldset {
+.algorithim form input[type="text"], .algorithim form input[type="email"], fieldset, .shared input[type="text"], .shared input[type="email"] {
     margin-bottom: 2rem;
 }
 
-.algorithim form input[type="text"], .algorithim form input[type="email"] {
+.algorithim form input[type="text"], .algorithim form input[type="email"], .shared input[type="text"], .shared input[type="email"] {
     margin-top: 0.7rem;
     height: 3rem;
     border: 1px solid var(--primary-gray);
@@ -140,4 +140,139 @@ fieldset span label {
     background-color: var(--white);
     border-radius: 0.4rem;
     border: 1px solid var(--primary-gray);
+}
+.your-selection {
+    padding: 19px 16px;
+}
+
+.your-selection__title {
+    font: var(--bold);
+    font-size: 1.8rem;
+    display: flex;
+    color: var(--primary-gray);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linebreack {
+    display: inline-block;
+    width: 20vw;
+}
+
+.iten__area {
+    margin-bottom: 3.8rem;
+}
+
+.iten__card {
+    display: flex;
+    gap: 2.3rem;
+    margin-top: 3rem;
+}
+
+.first{
+    margin-top: 2.3rem;
+}
+
+.iten__image {
+    width: 169px;
+    height: 129px;
+}
+
+.iten__title {
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+}
+
+.iten__descrition {
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.4rem;
+    display: none;
+}
+
+.iten__previous {
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.iten__price {
+    font: var(--bold);
+    color: var(--secundary-gray);
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+}
+
+.iten__quota {
+    font: var(--regular);
+    color: var(--secundary-gray);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.iten__btn {
+    padding: 0.6rem 6.8rem;
+    font-size: 1.6rem;
+    width: 20rem;
+}
+
+.more-itens, .shared__btn {
+    padding: 1.1rem 0;
+    width: 26rem;
+    font: var(--regular);
+    font-size: 1.6rem;
+    color: var(--primary-gray);
+    margin: 0 auto 12.9rem;
+}
+
+.shared {
+    padding: 19px 16px;
+}
+
+.shared__title {
+    font: var(--bold);
+    font-size: 1.8rem;
+    display: flex;
+    color: var(--primary-gray);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shared__paragraph {
+    margin: 2.8rem 0;
+    font: var(--regular);
+    font-size: 1.4rem;
+    color: var(--primary-gray);
+    text-align: center;
+}
+
+.shared__btn {
+    margin: 4.2rem auto 8.5rem;
+}
+
+footer {
+    background-color: var(--secundary-gray);
+    height: 127px;
+    clip-path: polygon(0 33.33%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 3.6rem 0;
+}
+    
+    .footer__paragraph {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0.2rem;
+        font: var(--regular);
+        font-size: 1.2rem;
+        color: var(--white);
+}
+    
+    footer :first-child {
+        margin-top: 4rem;
 }
